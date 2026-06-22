@@ -660,7 +660,7 @@ export default function App() {
           rel="noreferrer"
           className="bg-cyan-400 text-black font-black py-4 rounded-2xl flex justify-center items-center shadow-2xl"
         >
-          Comprar Ingresso
+        Garantir Vaga
         </motion.a>
 
       </div>
