@@ -7,10 +7,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        robotNavy: '#0A192F', // Azul escuro inspirado na sua logo
-        robotYellow: '#FFC107', // Amarelo da engrenagem
-        robotGreen: '#2E7D32', // Verde da logo
-      }
+        robotNavy: "#071A2F",
+        robotYellow: "#FFD500",
+        robotGreen: "#00C896",
+      },
     },
   },
   plugins: [],
