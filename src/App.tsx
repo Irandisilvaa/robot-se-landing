@@ -48,7 +48,7 @@ const expositores = [
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('dia1');
-  const [expandedCard, setExpandedCard] = useState<number | null>(null);
+  const [expandedCard, setExpandedCard] = useState(null);
 
   const toggleCard = (id: number) => {
     setExpandedCard(expandedCard === id ? null : id);
