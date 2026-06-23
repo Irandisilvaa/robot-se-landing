@@ -58,7 +58,7 @@ const programacaoDia1 = [
       "Palestra Magna — “Semicondutores, FPGA, Robótica e Minecraft: o que esses mundos possuem em comum?”",
     local: "Palco Principal",
     detalhe:
-      "Com Alcides S. Costa.Doutor em Ciência da Computação pela Universidade Federal do Rio Grande do Sul (UFRGS) em 2023. Bacharel em Engenharia de Computação pela mesma universidade em 2005. Desde então, Alcides tem se dedicado à microeletrônica no Brasil. Iniciou sua carreira apoiando atividades de CAD para universidades e grupos de pesquisa brasileiros como membro do Núcleo de Suporte a CAD da UFRGS (NSCAD/UFRGS). Aqui você terá uma imersão nas conexões entre hardware, jogos e robótica educacional.",
+      "Com Alcides S. Costa. Doutor em Ciência da Computação pela Universidade Federal do Rio Grande do Sul (UFRGS) em 2023. Bacharel em Engenharia de Computação pela mesma universidade em 2005. Desde então, Alcides tem se dedicado à microeletrônica no Brasil. Iniciou sua carreira apoiando atividades de CAD para universidades e grupos de pesquisa brasileiros como membro do Núcleo de Suporte a CAD da UFRGS (NSCAD/UFRGS). Aqui você terá uma imersão nas conexões entre hardware, jogos e robótica educacional.",
   },
   {
     id: 106,
@@ -66,7 +66,7 @@ const programacaoDia1 = [
     atividade: "Oficina Maker: Missão Espacial (Turma 1 — 10 vagas)",
     local: "Sala 203 — DID VII",
     detalhe:
-      "Atividade prática de montagem e ideação. Vagas limitadas.",
+      "Nesta atividade totalmente prática e imersiva, os participantes vão projetar e construir o seu próprio protótipo de foguete utilizando materiais acessíveis, como o papel. O grande diferencial está na fusão entre o artesanato e a tecnologia de ponta: o foguete será equipado com múltiplos sensores eletrônicos. Através de uma conexão sem fio, os alunos aprenderão a monitorar e controlar todos esses dados da nave em tempo real, direto na tela do próprio celular. É a ciência do espaço ao alcance das mãos! Essa atividade será dividida em 3 turmas cada uma com 10 alunos.",
   },
   {
     id: 107,
@@ -99,7 +99,7 @@ const programacaoDia1 = [
     atividade: "Oficina Maker: Missão Espacial (Turma 2 — 10 vagas)",
     local: "Sala 203 — DID VII",
     detalhe:
-      "Segunda turma da atividade prática de montagem e ideação.",
+      "Nesta atividade totalmente prática e imersiva, os participantes vão projetar e construir o seu próprio protótipo de foguete utilizando materiais acessíveis, como o papel. O grande diferencial está na fusão entre o artesanato e a tecnologia de ponta: o foguete será equipado com múltiplos sensores eletrônicos. Através de uma conexão sem fio, os alunos aprenderão a monitorar e controlar todos esses dados da nave em tempo real, direto na tela do próprio celular. É a ciência do espaço ao alcance das mãos! Essa atividade será dividida em 3 turmas cada uma com 10 alunos",
   },
   {
     id: 110,
@@ -175,7 +175,7 @@ const programacaoDia2 = [
     atividade: "Oficina Maker: Missão Espacial (Turma 3 — 10 vagas)",
     local: "Sala 203 — DID VII",
     detalhe:
-      "Terceira e última turma da oficina prática.",
+      "Nesta atividade totalmente prática e imersiva, os participantes vão projetar e construir o seu próprio protótipo de foguete utilizando materiais acessíveis, como o papel. O grande diferencial está na fusão entre o artesanato e a tecnologia de ponta: o foguete será equipado com múltiplos sensores eletrônicos. Através de uma conexão sem fio, os alunos aprenderão a monitorar e controlar todos esses dados da nave em tempo real, direto na tela do próprio celular. É a ciência do espaço ao alcance das mãos! Essa atividade será dividida em 3 turmas cada uma com 10 alunos.",
   },
   {
     id: 208,
@@ -698,33 +698,29 @@ export default function App() {
         <div className="max-w-6xl mx-auto text-center">
 
           <div className="flex flex-wrap justify-center gap-6 md:gap-12">
+  
+  {/* Repita este padrão para cada logo */}
+  <div className="bg-blue-600 p-4 rounded-xl flex items-center justify-center h-28 w-28">
+    <img src="/proex.png" className="h-full w-full object-contain" />
+  </div>
 
-            <img
-              src="/proex.png"
-              className="h-20 object-contain"
-            />
+  <div className="bg-blue-600 p-4 rounded-xl flex items-center justify-center h-28 w-28">
+    <img src="/logoih.svg" className="h-full w-full object-contain" />
+  </div>
 
-            <img
-              src="/logoih.svg"
-              className="h-20 object-contain"
-            />
+  <div className="bg-blue-600 p-4 rounded-xl flex items-center justify-center h-28 w-28">
+    <img src="/logocore.svg" className="h-full w-full object-contain" />
+  </div>
 
-            <img
-              src="/logocore.svg"
-              className="h-20 object-contain"
-            />
+  <div className="bg-blue-600 p-4 rounded-xl flex items-center justify-center h-28 w-28">
+    <img src="/logocor.svg" className="h-full w-full object-contain" />
+  </div>
 
-            <img
-              src="/logocor.svg"
-              className="h-20 object-contain"
-            />
+  <div className="bg-blue-600 p-4 rounded-xl flex items-center justify-center h-28 w-28">
+    <img src="/logosp.svg" className="h-full w-full object-contain" />
+  </div>
 
-            <img
-              src="/logosp.svg"
-              className="h-20 object-contain"
-            />
-
-          </div>
+</div>
 
           <p className="text-gray-500 mt-12 max-w-2xl mx-auto leading-relaxed">
             A RoboT-SE 2026 é a 1ª Feira Sergipana de
