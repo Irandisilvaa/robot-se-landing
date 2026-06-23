@@ -55,10 +55,10 @@ const programacaoDia1 = [
     id: 105,
     horario: "10:30 — 12:00",
     atividade:
-      "Palestra Magna — “Semicondutores, FPGA, Robótica e Minecraft”",
+      "Palestra Magna — “Semicondutores, FPGA, Robótica e Minecraft: o que esses mundos possuem em comum?”",
     local: "Palco Principal",
     detalhe:
-      "Com Alcides S. Costa. Uma imersão nas conexões entre hardware, jogos e robótica educacional.",
+      "Com Alcides S. Costa.Doutor em Ciência da Computação pela Universidade Federal do Rio Grande do Sul (UFRGS) em 2023. Bacharel em Engenharia de Computação pela mesma universidade em 2005. Desde então, Alcides tem se dedicado à microeletrônica no Brasil. Iniciou sua carreira apoiando atividades de CAD para universidades e grupos de pesquisa brasileiros como membro do Núcleo de Suporte a CAD da UFRGS (NSCAD/UFRGS). Aqui você terá uma imersão nas conexões entre hardware, jogos e robótica educacional.",
   },
   {
     id: 106,
