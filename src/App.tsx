@@ -16,9 +16,6 @@ import {
   Rocket,
 } from 'lucide-react';
 
-// ==========================
-// PROGRAMAÇÃO ORIGINAL COMPLETA
-// ==========================
 
 const programacaoDia1 = [
   {
@@ -130,6 +127,14 @@ const programacaoDia2 = [
       "Distribuição dos kits de pista, credenciamento e homologação dos robôs da competição oficial.",
     local: "Sala 206 — DID VII",
     detalhe: "",
+  },
+  {
+    id: 210,
+    horario: "09:00 — 15:00",
+    atividade: "Exposição Tecnológica",
+    local: "Área de Exposição",
+    detalhe:
+      "Visitação livre aos estandes, projetos de escolas, universidades e startups.",
   },
   {
     id: 201,
