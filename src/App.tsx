@@ -700,7 +700,7 @@ export default function App() {
           <div className="flex flex-wrap justify-center gap-6 md:gap-12">
   
   {/* Repita este padrão para cada logo */}
-  <div className="bg-blue-600 p-4 rounded-xl flex items-center justify-center h-28 w-28">
+  <div className="bg-white-600 p-4 rounded-xl flex items-center justify-center h-28 w-28">
     <img src="/proex.png" className="h-full w-full object-contain" />
   </div>
 
