@@ -506,6 +506,50 @@ export default function App() {
         </div>
       </section>
 
+      {/* ================= REGULAMENTOS ================= */}
+<section className="py-10 px-5">
+  <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-6">
+    
+    {/* Botão Regulamento Competição */}
+    <a
+      href="https://drive.google.com/file/d/1lf22IiSSORucagh5HRe1D7wukO_4_oAG/view?usp=sharing"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex items-center justify-between gap-4 bg-white/5 border border-white/10 hover:border-cyan-400/50 p-6 rounded-3xl transition-all group"
+    >
+      <div className="flex items-center gap-4">
+        <div className="p-3 bg-cyan-400/10 text-cyan-400 rounded-xl">
+          <ShieldCheck size={24} />
+        </div>
+        <div>
+          <h4 className="font-black text-lg">Regulamento da Competição</h4>
+          <p className="text-sm text-gray-400">Seguidor de Linha (PDF)</p>
+        </div>
+      </div>
+      <ExternalLink className="text-gray-500 group-hover:text-cyan-400" size={20} />
+    </a>
+
+    {/* Botão Regulamento Exposição */}
+    <a
+      href="https://docs.google.com/document/d/1BWI_StZd5-k2D4-gYR8_cI1eyhKlIPNjwKZcVSFncJQ/edit?usp=sharing"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex items-center justify-between gap-4 bg-white/5 border border-white/10 hover:border-yellow-400/50 p-6 rounded-3xl transition-all group"
+    >
+      <div className="flex items-center gap-4">
+        <div className="p-3 bg-yellow-400/10 text-yellow-400 rounded-xl">
+          <Bot size={24} />
+        </div>
+        <div>
+          <h4 className="font-black text-lg">Regulamento da Exposição</h4>
+          <p className="text-sm text-gray-400">Diretrizes e Normas</p>
+        </div>
+      </div>
+      <ExternalLink className="text-gray-500 group-hover:text-yellow-400" size={20} />
+    </a>
+  </div>
+</section>
+
       {/* ================= PROGRAMAÇÃO ================= */}
 
       <section className="py-20 px-4">
