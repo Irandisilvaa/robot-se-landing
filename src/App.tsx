@@ -145,6 +145,15 @@ const programacaoDia2 = [
     detalhe:
       "Com Rafael Lima Dantas. Apresentação de pesquisa e resultados no campo de Projeto de redes e automação em robótica para o âmbito industrial.",
   },
+    {
+    id: 212,
+    horario: "13:30 — 15:30",
+    atividade:
+      "Oficina Pitanga: Detector Digital de Obstáculos para Robôs",
+    local: "LAB D3 — Departamento de Computação — UFS (Concetração às 13:15 em frente ao Palco Principal saindo para o DCOMP às 13:20)",
+    detalhe:
+      "Nesta oficina, os participantes irão desenvolver um circuito digital simples e aplicado à robótica: um detector de obstáculos. Este detector será codificado em Verilog, a mesma linguagem de descrição de hardware utilizada nos chips da atualidade. Os participantes desta oficina receberão licenças do software Pitanga gratuitamente, válidas por até 7 dias após a oficina.",
+  },
   {
     id: 207,
     horario: "09:00 — 12:00",
@@ -161,6 +170,15 @@ const programacaoDia2 = [
     local: "Auditório 205 — DID VII",
     detalhe:
       "Com João Pedro Santana Silva Santos. Os caminhos do ecossistema de inovação e negócios.",
+  },
+    {
+    id: 213,
+    horario: "15:00 — 16:00",
+    atividade:
+      "Deep Techs e o Futuro da Energia",
+    local: "Palco Principal — DID VII",
+    detalhe:
+      "Com Wellignton Machado: Fundador da TomorrowLab, ex-Siemens, investidor-anjo e participante de programas executivos na Babson College. Especialista em inovação aberta e desenvolvimento de ecossistemas, atua em parceria com o Sebrae na mobilização do ecossistema de inovação do Sergipe Oil & Gas 2026, aproximando talentos, startups e empresas dos desafios do setor de energia. Aqui vamos discutir sobre como jovens, pesquisadores e startups podem transformar desafios complexos em oportunidades de inovação e negócios. A inteligência artificial, a robótica, os drones, os sensores inteligentes e outras deep techs estão redefinindo uma das indústrias que mais investem em tecnologia no mundo: o setor de energia. Nesta palestra, vamos explorar os principais desafios e oportunidades do mercado, mostrando como estudantes, pesquisadores, startups e empreendedores podem transformar conhecimento em soluções reais, gerar novos negócios e se conectar ao ecossistema de inovação do Sergipe Oil & Gas 2026.",
   },
   {
     id: 211,
