@@ -94,14 +94,6 @@ const programacaoDia1 = [
       "Com Heli Lucas Santos Pinto. Metodologias ágeis para criação de projetos relevantes.",
   },
   {
-    id: 109,
-    horario: "15:30 — 17:00",
-    atividade: "Oficina Maker: Missão Espacial (Turma 2 — 10 vagas)",
-    local: "Sala 203 — DID VII",
-    detalhe:
-      "Nesta atividade totalmente prática e imersiva, os participantes vão projetar e construir o seu próprio protótipo de foguete utilizando materiais acessíveis, como o papel. O grande diferencial está na fusão entre o artesanato e a tecnologia de ponta: o foguete será equipado com múltiplos sensores eletrônicos. Através de uma conexão sem fio, os alunos aprenderão a monitorar e controlar todos esses dados da nave em tempo real, direto na tela do próprio celular. É a ciência do espaço ao alcance das mãos! Essa atividade será dividida em 3 turmas cada uma com 10 alunos",
-  },
-  {
     id: 110,
     horario: "16:00 — 16:30",
     atividade: "Arborização Inteligente utilizando tecnologia",
@@ -127,6 +119,14 @@ const programacaoDia2 = [
       "Distribuição dos kits de pista, credenciamento e homologação dos robôs da competição oficial.",
     local: "Sala 206 — DID VII",
     detalhe: "",
+  },
+{
+    id: 109,
+    horario: "15:30 — 17:00",
+    atividade: "Oficina Maker: Missão Espacial (Turma 2 — 10 vagas)",
+    local: "Sala 203 — DID VII",
+    detalhe:
+      "Nesta atividade totalmente prática e imersiva, os participantes vão projetar e construir o seu próprio protótipo de foguete utilizando materiais acessíveis, como o papel. O grande diferencial está na fusão entre o artesanato e a tecnologia de ponta: o foguete será equipado com múltiplos sensores eletrônicos. Através de uma conexão sem fio, os alunos aprenderão a monitorar e controlar todos esses dados da nave em tempo real, direto na tela do próprio celular. É a ciência do espaço ao alcance das mãos! Essa atividade será dividida em 3 turmas cada uma com 10 alunos",
   },
   {
     id: 210,
