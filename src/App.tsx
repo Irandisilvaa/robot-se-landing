@@ -513,7 +513,7 @@ export default function App() {
     
     {/* Botão Regulamento Competição */}
     <a
-      href="https://drive.google.com/file/d/1lf22IiSSORucagh5HRe1D7wukO_4_oAG/view?usp=sharing"
+      href="https://drive.google.com/file/d/1lnYGr7WEflafR5efEpPy3f7uGPJFbjCq/view?usp=drivesdk"
       target="_blank"
       rel="noopener noreferrer"
       className="flex items-center justify-between gap-4 bg-white/5 border border-white/10 hover:border-cyan-400/50 p-6 rounded-3xl transition-all group"
