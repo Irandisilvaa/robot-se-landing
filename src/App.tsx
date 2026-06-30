@@ -77,6 +77,15 @@ const programacaoDia1 = [
       "Visitação livre aos estandes, projetos de escolas, universidades e startups.",
   },
   {
+    id: 212,
+    horario: "13:30 — 15:30",
+    atividade:
+      "Oficina Pitanga: Detector Digital de Obstáculos para Robôs",
+    local: "LAB D3 — Departamento de Computação — UFS (Concetração às 13:15 em frente ao Palco Principal saindo para o DCOMP às 13:20)",
+    detalhe:
+      "Nesta oficina, os participantes irão desenvolver um circuito digital simples e aplicado à robótica: um detector de obstáculos. Este detector será codificado em Verilog, a mesma linguagem de descrição de hardware utilizada nos chips da atualidade. Os participantes desta oficina receberão licenças do software Pitanga gratuitamente, válidas por até 7 dias após a oficina.",
+  },
+  {
     id: 111,
     horario: "14:00 — 17:00",
     atividade: "Circuito Aberto (Exibição Livre de Robótica)",
@@ -144,15 +153,6 @@ const programacaoDia2 = [
     local: "Sala 202 — Arena Científica",
     detalhe:
       "Com Rafael Lima Dantas. Apresentação de pesquisa e resultados no campo de Projeto de redes e automação em robótica para o âmbito industrial.",
-  },
-    {
-    id: 212,
-    horario: "13:30 — 15:30",
-    atividade:
-      "Oficina Pitanga: Detector Digital de Obstáculos para Robôs",
-    local: "LAB D3 — Departamento de Computação — UFS (Concetração às 13:15 em frente ao Palco Principal saindo para o DCOMP às 13:20)",
-    detalhe:
-      "Nesta oficina, os participantes irão desenvolver um circuito digital simples e aplicado à robótica: um detector de obstáculos. Este detector será codificado em Verilog, a mesma linguagem de descrição de hardware utilizada nos chips da atualidade. Os participantes desta oficina receberão licenças do software Pitanga gratuitamente, válidas por até 7 dias após a oficina.",
   },
   {
     id: 207,
