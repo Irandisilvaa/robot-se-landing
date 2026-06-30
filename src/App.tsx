@@ -1,4 +1,4 @@
-  import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   Calendar,
@@ -103,14 +103,6 @@ const programacaoDia1 = [
       "Com Heli Lucas Santos Pinto. Metodologias ágeis para criação de projetos relevantes.",
   },
   {
-    id: 109,
-    horario: "15:30 — 17:00",
-    atividade: "Oficina Maker: Missão Espacial (Turma 2 — 10 vagas)",
-    local: "Sala 203 — DID VII",
-    detalhe:
-      "Nesta atividade totalmente prática e imersiva, os participantes vão projetar e construir o seu próprio protótipo de foguete utilizando materiais acessíveis, como o papel. O grande diferencial está na fusão entre o artesanato e a tecnologia de ponta: o foguete será equipado com múltiplos sensores eletrônicos. Através de uma conexão sem fio, os alunos aprenderão a monitorar e controlar todos esses dados da nave em tempo real, direto na tela do próprio celular. É a ciência do espaço ao alcance das mãos! Essa atividade será dividida em 3 turmas cada uma com 10 alunos",
-  },
-  {
     id: 110,
     horario: "16:00 — 16:30",
     atividade: "Arborização Inteligente utilizando tecnologia",
@@ -137,6 +129,7 @@ const programacaoDia2 = [
     local: "Sala 206 — DID VII",
     detalhe: "",
   },
+
   {
     id: 210,
     horario: "09:00 — 15:00",
@@ -194,6 +187,14 @@ const programacaoDia2 = [
     local: "Sala 203 — DID VII",
     detalhe:
       "Nesta atividade totalmente prática e imersiva, os participantes vão projetar e construir o seu próprio protótipo de foguete utilizando materiais acessíveis, como o papel. O grande diferencial está na fusão entre o artesanato e a tecnologia de ponta: o foguete será equipado com múltiplos sensores eletrônicos. Através de uma conexão sem fio, os alunos aprenderão a monitorar e controlar todos esses dados da nave em tempo real, direto na tela do próprio celular. É a ciência do espaço ao alcance das mãos! Essa atividade será dividida em 3 turmas cada uma com 10 alunos.",
+  },
+{
+    id: 109,
+    horario: "15:30 — 17:00",
+    atividade: "Oficina Maker: Missão Espacial (Turma 2 — 10 vagas)",
+    local: "Sala 203 — DID VII",
+    detalhe:
+      "Nesta atividade totalmente prática e imersiva, os participantes vão projetar e construir o seu próprio protótipo de foguete utilizando materiais acessíveis, como o papel. O grande diferencial está na fusão entre o artesanato e a tecnologia de ponta: o foguete será equipado com múltiplos sensores eletrônicos. Através de uma conexão sem fio, os alunos aprenderão a monitorar e controlar todos esses dados da nave em tempo real, direto na tela do próprio celular. É a ciência do espaço ao alcance das mãos! Essa atividade será dividida em 3 turmas cada uma com 10 alunos",
   },
   {
     id: 208,
@@ -512,7 +513,7 @@ export default function App() {
     
     {/* Botão Regulamento Competição */}
     <a
-      href="https://drive.google.com/file/d/1lf22IiSSORucagh5HRe1D7wukO_4_oAG/view?usp=sharing"
+      href="https://drive.google.com/file/d/1lnYGr7WEflafR5efEpPy3f7uGPJFbjCq/view?usp=drivesdk"
       target="_blank"
       rel="noopener noreferrer"
       className="flex items-center justify-between gap-4 bg-white/5 border border-white/10 hover:border-cyan-400/50 p-6 rounded-3xl transition-all group"
