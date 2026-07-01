@@ -164,7 +164,14 @@ const programacaoDia2 = [
     detalhe:
       "Com João Pedro Santana Silva Santos. Os caminhos do ecossistema de inovação e negócios.",
   },
-    {
+  {
+    id: 211,
+    horario: "12:00 — 13:30",
+    atividade: "Intervalo para almoço.",
+    local: "Livre",
+    detalhe: "",
+  },
+      {
     id: 213,
     horario: "15:00 — 16:00",
     atividade:
@@ -172,13 +179,6 @@ const programacaoDia2 = [
     local: "Palco Principal — DID VII",
     detalhe:
       "Com Wellignton Machado: Fundador da TomorrowLab, ex-Siemens, investidor-anjo e participante de programas executivos na Babson College. Especialista em inovação aberta e desenvolvimento de ecossistemas, atua em parceria com o Sebrae na mobilização do ecossistema de inovação do Sergipe Oil & Gas 2026, aproximando talentos, startups e empresas dos desafios do setor de energia. Aqui vamos discutir sobre como jovens, pesquisadores e startups podem transformar desafios complexos em oportunidades de inovação e negócios. A inteligência artificial, a robótica, os drones, os sensores inteligentes e outras deep techs estão redefinindo uma das indústrias que mais investem em tecnologia no mundo: o setor de energia. Nesta palestra, vamos explorar os principais desafios e oportunidades do mercado, mostrando como estudantes, pesquisadores, startups e empreendedores podem transformar conhecimento em soluções reais, gerar novos negócios e se conectar ao ecossistema de inovação do Sergipe Oil & Gas 2026.",
-  },
-  {
-    id: 211,
-    horario: "12:00 — 13:30",
-    atividade: "Intervalo para almoço.",
-    local: "Livre",
-    detalhe: "",
   },
   {
     id: 204,
@@ -239,6 +239,10 @@ const expositores = [
   {
     nome: "Olimpíada Brasileira de Robótica (OBR)",
     categoria: "Projeto Institucional",
+  },
+    {
+    nome: "Manna Team",
+    categoria: "Projeto Nacional",
   },
   {
     nome: "IFBA — Campus Euclides da Cunha",
